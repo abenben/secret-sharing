@@ -3,7 +3,6 @@ import tss
 print('[開始]')
 
 filename = 'memo.txt'
-#filename = 'report1.pdf'
 
 # バイナリモードでPDFファイルを読み込む
 with open(f'./input/' + filename, 'rb') as file:
